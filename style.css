@@ -1,0 +1,94 @@
+
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0; /* Забираємо відступи */
+    padding: 0; /* Забираємо відступи */
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Центруємо вміст по горизонталі */
+    height: 100vh; /* Заповнюємо всю висоту екрану */
+    background-image: url(game4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Фіксація фону при прокручуванні */
+}
+
+.forname {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.name {
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+#generate {
+    font-family: 'Poppins', sans-serif;
+    background-color: #008000;
+    border: 2px solid gold;
+    font-size: 18px; 
+    font-weight: bold;
+    padding: 15px 25px; 
+    cursor: pointer;
+    border-radius: 45px;
+    width: 150px; 
+    height: 45px; 
+    color: gold;
+}
+
+#generate:hover {
+    background-color: #006400;
+}
+
+.objects {
+    position: relative;
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    grid-gap: 10px;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    margin-top: 150px; 
+    margin-left: 150px; 
+    align-self: center;
+}
+
+.slot {
+    width: 75px;
+    height: 50px; 
+    border: 2px solid gold;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    border-radius: 10px;
+}
